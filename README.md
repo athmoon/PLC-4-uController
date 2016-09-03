@@ -13,6 +13,6 @@ The project was developed in my bachelor degree thesis, that is available in PT-
 
 This project utilizes:
 
-* The BuDDy BDD package for BDD implementation. Available in: https://sourceforge.net/projects/buddy/. With docummentation in: http://buddy.sourceforge.net/manual/main.html
+* The BuDDy BDD package, for BDD implementation. Available in: https://sourceforge.net/projects/buddy/. With docummentation in: http://buddy.sourceforge.net/manual/main.html
 * The Mini-XML library, for XML manipulation. Available in: http://www.msweet.org/projects.php?Z3
-
+* The OrangeCad Web tool to design graphical finite-state machines and generate the espresso files. Available in: https://blog.ufes.br/orangecad/
