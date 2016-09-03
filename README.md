@@ -9,4 +9,8 @@ The first format (C), can be easily imported by any program written in C, but it
 
 The second program developed (plcengine subfolder) is an engine that can be embedded in computers and microcontrollers which contain compilers for the C language. The engine is able to import the logical descriptions from both C and XML files. From the imported BDD, the software can also effectively (by the very nature of BDD representation), estimate all system’s outputs as well as its next state, based on the current state and the system’s inputs, implementing so the desired finite-state machine. Such implementation avoids redundant and disordered verifications of the inputs and states of the system, very present in textual implementations with if-then-else, for example. The engine does not depend on the third-party BDD library used in the first program, i.e., it just needs to include the .C or the .XML file. 
 
-This project utilizes the BuDDy BDD package, available in: https://sourceforge.net/projects/buddy/. With docummentation in: http://buddy.sourceforge.net/manual/main.html
+This project utilizes:
+
+* The BuDDy BDD package for BDD implementation. Available in: https://sourceforge.net/projects/buddy/. With docummentation in: http://buddy.sourceforge.net/manual/main.html
+* The Mini-XML library, for XML manipulation. Available in: http://www.msweet.org/projects.php?Z3
+
